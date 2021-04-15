@@ -1,0 +1,177 @@
+@font-face {
+    font-family: ns-bold;
+    src: url('../fonts/NeoSansArabic-Bold.ttf')
+}
+
+@font-face {
+    font-family: ns-regular;
+    src: url('../fonts/NeoSansArabic.ttf')
+}
+
+.rtl {
+    direction: rtl;
+    text-align: right;
+    font-family: 'ns-regular' !important;
+}
+
+.rtl .our-portfolio .nav-pills .nav-link {
+    font-family: 'ns-bold' !important;
+}
+
+.rtl .owl-carousel {
+    direction: ltr;
+}
+
+.rtl h1,
+.rtl h2,
+.rtl h3,
+.rtl h4,
+.rtl h5,
+.rtl h6 {
+    font-family: "ns-bold" !important;
+}
+
+.rtl p {
+    font-family: "ns-regular" !important;
+}
+
+.rtl .navbar .nav-item .nav-link {
+    font-family: "ns-bold";
+}
+
+.rtl .main-slider .top-details p span.diff-color {
+    font-family: "ns-bold";
+}
+
+.rtl .owl-header .slide-get-touch {
+    left: 15px;
+    right: auto;
+}
+
+.rtl .owl-header .owl-nav button.owl-prev,
+.rtl .owl-header .owl-nav button.owl-next,
+.rtl .owl-header .owl-dots {
+    left: -50px;
+    right: auto;
+}
+
+.rtl .footer .foot-menu h4::after {
+    left: auto;
+    right: 0;
+}
+
+.rtl .ser-des p::before {
+    left: auto;
+    right: 0;
+}
+
+.rtl .ser-des p {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.rtl .page-head .p-head .all-title h3::after {
+    left: auto;
+    right: -18px;
+}
+
+.rtl .page-head::after {
+    left: 138px;
+    right: auto;
+}
+
+.rtl .port-card .port-content {
+    left: auto;
+    right: 26px;
+}
+
+.rtl .title-contact h3::after {
+    left: auto;
+    right: 0;
+}
+
+.rtl .all-static .all-text p {
+    font-family: "ns-regular";
+}
+
+.rtl .all-static .all-text ul li {
+    font-family: "ns-bold";
+}
+
+.rtl .all-static .all-text h1,
+.rtl .all-static .all-text h2,
+.rtl .all-static .all-text h3,
+.rtl .all-static .all-text h4,
+.rtl .all-static .all-text h5,
+.rtl .all-static .all-text h6 {
+    font-family: "ns-bold";
+}
+
+.rtl .single-service .service-details .service-title h3::after {
+    right: -10px;
+    left: auto;
+}
+
+.rtl .nav-link.nuxt-link-exact-active::after {
+    left: auto;
+    right: 0;
+}
+
+.rtl .share-social {
+    left: auto;
+    right: -180px;
+}
+
+.rtl .navbar .nav-item.lang a .svg-inline--fa {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.rtl .img-load:after {
+    content: "انتظر قليلا....";
+}
+
+.rtl .team-creativity h3:after {
+    right: -33px;
+    left: auto;
+}
+
+.rtl .services-page::after {
+    right: auto;
+    left: 40px;
+    bottom: 70px;
+}
+
+.rtl .services-page .all-title h3::before {
+    right: -75px;
+    left: auto;
+}
+
+.rtl .slide-get-touch .dot-img img {
+    left: -30px;
+    right: auto;
+}
+
+.rtl .main-slider .top-details h1::after {
+    right: -33px;
+    left: auto;
+}
+
+.rtl .offer-div .media img {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.rtl .offer-div::after {
+    left: auto;
+    right: 6px;
+}
+
+.rtl .offer-div::before {
+    right: auto;
+    left: 6px;
+}
+
+.rtl .port-img::after {
+    content: "انتظر قليلا...";
+}
