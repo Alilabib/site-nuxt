@@ -151,7 +151,7 @@ export default {
     return {
       shareIcons: false,
       slug: this.$route.params.single,
-      pageLocation: window.location.href,
+      pageLocation: 'www.google.com',
     }
   },
   methods: {

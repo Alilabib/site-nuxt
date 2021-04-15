@@ -1,6 +1,6 @@
 export default {
-    target: "static",
-    ssr: false,
+    target: 'static',
+    ssr: true,
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
         title: 'alalmiya',
@@ -89,9 +89,6 @@ export default {
     axios: {
         baseUrl: "https://alalmyia.t-demo.alalmiyalhura.com/api"
     },
-
-    // target: 'server',
-    // ssr: true,
 
     // loading: '~/components/MainComponents/Loader.vue',
 

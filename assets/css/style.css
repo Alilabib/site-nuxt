@@ -1213,7 +1213,8 @@ span.yel-color {
     position: relative;
 }
 
-.client-opinion .client-img::after {
+
+/* .client-opinion .client-img::after {
     position: absolute;
     content: "";
     width: 300px;
@@ -1223,7 +1224,7 @@ span.yel-color {
     left: 0;
     bottom: 0px;
     left: 80px;
-}
+} */
 
 
 /* .client-opinion::after {
@@ -1266,8 +1267,7 @@ span.yel-color {
     height: 75px;
 }
 
-
-/* .client-opinion .client-text::before {
+.client-opinion .client-text::before {
     position: absolute;
     content: "";
     background: url('../images/client-opinion/right-quote.png') no-repeat;
@@ -1276,7 +1276,7 @@ span.yel-color {
     background-size: 66%;
     width: 75px;
     height: 75px;
-} */
+}
 
 .client-opinion .client-text .client-info h5 {
     font-size: 20px;
